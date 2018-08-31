@@ -1,0 +1,6 @@
+Hyper-parameter,Value(s)
+max\_iter,1000
+tol,None; 0.001; 0.0001
+shuffle,true; false
+eta0,1; 0.5; 0.25; 2; 4
+class\_weight,unset; balanced

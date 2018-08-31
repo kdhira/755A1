@@ -1,0 +1,6 @@
+Hyper-parameter,Value(s)
+fit\_intercept,true; false
+normalize,true; false
+tol,0.001; 0.0001
+solver,auto;svd;cholesky;lsqr;sparse\_cg;sag;saga
+alpha,1; 0.5; 0.1; 0.01; 0.001

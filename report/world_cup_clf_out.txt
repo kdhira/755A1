@@ -1,0 +1,50 @@
+SVM
+{'C': 10, 'kernel': 'linear'}
+             precision    recall  f1-score   support
+
+       draw       0.50      0.50      0.50         2
+       loss       0.67      1.00      0.80         2
+        win       0.50      0.33      0.40         3
+
+avg / total       0.55      0.57      0.54         7
+
+Perceptron
+{'class_weight': None, 'eta0': 1, 'max_iter': 1000, 'shuffle': True, 'tol': None}
+             precision    recall  f1-score   support
+
+       draw       0.50      0.50      0.50         2
+       loss       0.67      1.00      0.80         2
+        win       0.50      0.33      0.40         3
+
+avg / total       0.55      0.57      0.54         7
+
+Decision Tree
+{'criterion': 'gini'}
+             precision    recall  f1-score   support
+
+       draw       0.00      0.00      0.00         2
+       loss       0.50      0.50      0.50         2
+        win       0.67      0.67      0.67         3
+
+avg / total       0.43      0.43      0.43         7
+
+Nearest Neighbour
+{'n_neighbors': 5}
+             precision    recall  f1-score   support
+
+       draw       0.00      0.00      0.00         2
+       loss       0.20      0.50      0.29         2
+        win       0.00      0.00      0.00         3
+
+avg / total       0.06      0.14      0.08         7
+
+Naive Bayes
+{}
+             precision    recall  f1-score   support
+
+       draw       0.33      0.50      0.40         2
+       loss       1.00      0.50      0.67         2
+        win       0.67      0.67      0.67         3
+
+avg / total       0.67      0.57      0.59         7
+

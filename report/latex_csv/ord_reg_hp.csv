@@ -1,0 +1,3 @@
+Hyper-parameter,Value(s)
+fit\_intercept,true; false
+normalize,true; false

@@ -1,0 +1,9 @@
+Ordinary Regression
+{'fit_intercept': True, 'normalize': True}
+Mean squared error: 12.89
+Variance score: -3.58
+
+Ridge Regression
+{'alpha': 1, 'fit_intercept': True, 'normalize': True, 'solver': 'lsqr', 'tol': 0.0001}
+Mean squared error: 5.36
+Variance score: -0.90
